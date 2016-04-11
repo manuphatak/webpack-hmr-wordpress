@@ -1,0 +1,53 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "globals": {
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "brace-style": [
+      2,
+      "stroustrup",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "id-length": [
+      2,
+      {
+        "min": 1
+      }
+    ],
+    "new-cap": 0,
+    "max-len": [
+      2,
+      120
+    ],
+    "no-use-before-define": [
+      2,
+      "nofunc"
+    ],
+    "spaced-comment": 0,
+    "no-unused-vars": 1,
+    "semi": 1,
+    "array-bracket-spacing": [
+      2,
+      "always"
+    ],
+    "computed-property-spacing": [
+      2,
+      "always"
+    ]
+  }
+}
